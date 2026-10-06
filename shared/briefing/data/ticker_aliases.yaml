@@ -1,0 +1,12 @@
+# Apex-R 市場簡報 — 代號別名
+#
+# 用途：新聞比對與顯示（尤其台股中文名）。格式：<ticker>: [名稱, 名稱, ...]
+
+"0050.TW": [元大台灣50, 台灣50, "0050"]
+"2330.TW": [台積電, TSMC, 台積]
+"2317.TW": [鴻海, Foxconn]
+"2454.TW": [聯發科, MediaTek]
+GOOGL: [Google, Alphabet]
+GOOG: [Google, Alphabet]
+META: [Meta, Facebook]
+BRK-B: [Berkshire, 波克夏]

@@ -1,0 +1,55 @@
+__pycache__/
+*.py[cod]
+.Python
+*.log
+*.pkl
+
+# Local secrets / env
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+
+# Generated daily reports (local only)
+desktop/report_*.txt
+desktop/briefing_*.txt
+desktop/daily_full_*.txt
+desktop/daily_*.eml
+desktop/alloc_*.csv
+desktop/alloc_*.txt
+desktop/committee_*.txt
+desktop/apex_tw_report_*.txt
+desktop/capital_state.json
+desktop/logs/
+
+# Desktop build artifacts
+desktop/build/
+desktop/dist/
+dist/
+
+# Mobile build artifacts (APK bundles are multi-GB)
+mobile/build/
+mobile/build_bundle/
+mobile/build_bundle_*/
+mobile/dist/
+mobile/dist/*.apk
+mobile/.flet/
+mobile/download/
+
+*.spec.bak
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.egg-info/
+.venv/
+venv/
+
+
+# Personal / generated outputs
+desktop/last_report.txt
+desktop/sweep_output*.txt
+desktop/locked_books/
+desktop/ui_prefs.json
+desktop/backtest_cache/

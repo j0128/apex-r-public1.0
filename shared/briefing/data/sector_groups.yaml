@@ -1,0 +1,25 @@
+# Apex-R 市場簡報 — 產業分組
+#
+# 用途：把宇宙池內的標的分到產業群，讓簡報能顯示「同產業、未持有」的連動新聞。
+# 格式：<產業中文名>: [ticker, ticker, ...]
+# 一檔標的可只歸在一個主要產業（程式以第一個出現者為準）。
+# 可自行增修；找不到分類的標的會被歸為「其他」。
+
+AI半導體: [NVDA, AMD, INTC, MU, MRVL, AVGO, QCOM, TXN, ARM, TSM]
+半導體設備: [AMAT, LRCX, ASML]
+AI伺服器硬體: [DELL, SMCI, IBM]
+軟體SaaS: [MSFT, ORCL, CRM, ADBE, NOW, INTU, PLTR, SHOP]
+資安: [PANW, CRWD]
+網路媒體: [GOOGL, GOOG, META, NFLX, AMZN, BABA, PDD, UBER, BKNG, APP, HOOD, DIS]
+製藥醫療: [LLY, MRK, JNJ, ABBV, PFE, UNH]
+金融: [JPM, BAC, GS, C, WFC, V, MA, BRK-B]
+消費: [COST, WMT, HD, NKE, MCD, SBUX, PEP, KO, PG]
+工業能源: [GE, GEV, CAT, BA, XOM, CVX, LIN]
+台股晶圓代工: [2330.TW, 2303.TW, 3711.TW]
+台股IC設計: [2454.TW, 2379.TW, 3034.TW, 3443.TW, 2408.TW, 2344.TW, 4966.TW]
+台股設備材料: [6669.TW, 3661.TW, 3532.TW, 3189.TW, 6488.TW]
+台股組裝權值: [2317.TW, 2382.TW, 2357.TW, 3231.TW, 2308.TW, 2327.TW, 3017.TW, 2356.TW]
+台股光電面板: [2409.TW, 3481.TW, 3008.TW, 2474.TW]
+台股金融: [2881.TW, 2882.TW, 2884.TW, 2885.TW, 2886.TW, 2880.TW, 2887.TW, 2890.TW, 2891.TW, 2892.TW, 2883.TW, 5871.TW, 5876.TW]
+台股電信傳產: [2412.TW, 3045.TW, 4904.TW, 2912.TW, 1216.TW, 1301.TW, 1303.TW, 2002.TW, 1101.TW, 6505.TW]
+台股ETF錨: [0050.TW]

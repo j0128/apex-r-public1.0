@@ -1,0 +1,9 @@
+# Mobile/APK deps — hand-picked only (do not pip freeze).
+# Binary wheels must exist on https://pypi.flet.dev for Android (cp312).
+# yfinance>=0.2.58 pulls curl_cffi, which has no Android wheel — pin below that.
+flet>=0.24.0
+yfinance==0.2.57
+pandas>=2.0.0,<3
+numpy>=1.26.0,<3
+pytz>=2024.1
+pyyaml>=6.0
